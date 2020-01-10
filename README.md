@@ -1,12 +1,27 @@
 # Interactive Front End Development Project - Snap Card Game
 
-This project consists of designing an interactive game, snap. Snap is a card game where by the user is presetned with a number of cards, 16 to start with, which are faced down. The aim of the game is to match pairs of cards. The user selects a card, which animates flipping over to reveal what it is, the user then selects another card, which performs the same action. If the cards match they still facing up to the user and are added to a counter that indicates how many pairs the user has found. If they do not match, then then both flip back down and the user carries on until they match a pair.
+This project consists of designing an interactive game, snap. Snap is a card game where by the user is presented with a number of cards, 16 to start with, which are faced down. The aim of the game is to match pairs of cards. There are 3 levels to the game. The first level is play cards to be matched, by number and by suit, hearts, clubs, spades and diamonds. The second level is shapes, this will be similar shapes, with subtle differences to increase the difficulty. THe 3rd level will be patterns, all the same colour but again with more sublte diffferences.
 
-To add to the difficulty the user is faced with a count down timer. All matches must be completed within a given time (to be determined through play through and assessment of difficulty). The user is also rated against how many attempts that they have made, A live scale beside the attempts counter will indicate from green to red how effective the player is. The timer is constantly displayed on screen as is the flip attempts counts. 
+How to play: The player selects a card, which animates flipping over to reveal what it is, the user then selects another card, which performs the same action. If the cards match they stay facing up to the user and are added to a counter that indicates how many pairs the user has found. If they do not match, then then both flip back down and the user carries on until they match a pair.
+
+To add to the difficulty the user is faced with a count down timer. All matches must be completed within a given time (to be determined through play through and assessment of difficulty). The user is also rated against how many attempts that they have made, A live scale beside the attempts counter will indicate from green to red how effective the player is. 
+
+The timer is constantly displayed on screen as is the flip attempts counts and a rating of attempts very a pre determined rating. Example: if there are 16 cards, thats 8 pairs, if it takes the user 12 attempts, then that is a ratings of green, if it takes 16 attempts then it is a rating of amber, 18+ attempts it is a red rating and the player needs to replay the game. 
 
 THe player will also have the option from the start of selecting the difficulty level, this will be differentiated by the number of cards. Example: Start with 16, 20 or 24 cards, with different time amounts for the game to be completed in. 
 
-At the start of the game the player will be asked to enter there name, this can then be passed to the endgame overview where the palyers name and results are displayed. Based on how the player got on different images, graphics and commentary will be provided based on time, score and how many pairs are matched.
+At the start of the game the player will be asked to enter there name, this can then be passed to the endgame overview where the players name and results are displayed. Based on how the player scored, different images, graphics and commentary will be provided based on time, score, effeciency and how many pairs are matched.
+
+As each level of the game is completed the user is brought to the next level of difficulty. Example: if the player wins the 16 cards level of difficulty they are progressed to the 20 card round etc..
+
+After 3 rounds or by winning the hardest level, 24 cards, the player is then presented with the next level of thegame , level 2 has shapes inside the cards instead of numbers, Successfuly winning this level progresses the player to the 3rd level, patterns. Each time all 3 levels of difficulty are finished the player is brought to the next level;
+
+Level 1: Palying cards
+Level 2: Shapes
+Level 3: Patterns
+
+Successful completion of each level presents the player with a summary screen that shows the results of the round; Time completedd in, attempts taken, effectiveness ratings.
+
  
 ## UX
 
