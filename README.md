@@ -1,11 +1,16 @@
-# Your Project's Name
+# Interactive Front End Development Project - Snap Card Game
 
-One or two paragraphs providing an overview of your project.
+This project consists of designing an interactive game, snap. Snap is a card game where by the user is presetned with a number of cards, 16 to start with, which are faced down. The aim of the game is to match pairs of cards. The user selects a card, which animates flipping over to reveal what it is, the user then selects another card, which performs the same action. If the cards match they still facing up to the user and are added to a counter that indicates how many pairs the user has found. If they do not match, then then both flip back down and the user carries on until they match a pair.
 
-Essentially, this part is your sales pitch.
+To add to the difficulty the user is faced with a count down timer. All matches must be completed within a given time (to be determined through play through and assessment of difficulty). The user is also rated against how many attempts that they have made, A live scale beside the attempts counter will indicate from green to red how effective the player is. The timer is constantly displayed on screen as is the flip attempts counts. 
+
+THe player will also have the option from the start of selecting the difficulty level, this will be differentiated by the number of cards. Example: Start with 16, 20 or 24 cards, with different time amounts for the game to be completed in. 
+
+At the start of the game the player will be asked to enter there name, this can then be passed to the endgame overview where the palyers name and results are displayed. Based on how the player got on different images, graphics and commentary will be provided based on time, score and how many pairs are matched.
  
 ## UX
- 
+
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
