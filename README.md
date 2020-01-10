@@ -16,7 +16,7 @@ As each level of the game is completed the user is brought to the next level of 
 
 After 3 rounds or by winning the hardest level, 24 cards, the player is then presented with the next level of thegame , level 2 has shapes inside the cards instead of numbers, Successfuly winning this level progresses the player to the 3rd level, patterns. Each time all 3 levels of difficulty are finished the player is brought to the next level;
 
-Level 1: Palying cards
+Level 1: Playing cards
 Level 2: Shapes
 Level 3: Patterns
 
@@ -24,6 +24,16 @@ Successful completion of each level presents the player with a summary screen th
 
  
 ## UX
+
+The game will be developed as a interactive webpage. With a sign in page that requires a player to assign a name. This will have a required input box, that ensures players have a name for various stages of the game. The home screen will be styled with an illustrated style of graphics, made in photoshop and illustrator by myself. 
+
+The site will be responsive in design, with the playable area being designing to be displayed on mobile, tablet and desktop. 
+
+The user base is targeted at 4 - 99, making the game accessible to all potential users, who enjoy challenging ther memory and pattern sorting abilities. The timer, attempts and effectiveness ratings also put a level of 'stakes' to the game. The results of the players performance are also deisgned to be funny and motivational, a selection of humourous results screens will encourage, challenge and priase performance of the player to entice them to keep going or to try harder.
+
+The objective of the game is to challenge the player to find, remember and match pairs of numbers and suits of playing cards in the first level, similar shapes with the same colour in the second round and similar pattern pairs in the 3rd level. 
+
+Below are a number of wireframe designs for the layout and progression of the game:
 
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -34,6 +44,34 @@ In particular, as part of this section we recommend that you provide a list of U
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
+
+The game will feature:
+
+A sign in function, this will be a required field that the user must enter a player name for. This acts as a way of tieing the player to the game, by having the player name be assosicated with them throughout the game and for the final scoring page.
+
+A menu screen that will consist of a difficulty selection menu system. Here the player will select the time limits, the amount of cards the player will be challenged with and level of the game. 
+
+Selection of these options will load in the scripts that contain the time limit, the amount of cards the player starts with. The base level of the game is available from the start, however the 2nd and 3rd levels are not available until the player has progressed past the first level. 
+
+After this point the player, assuming they replay from within the same session, can choose from the 2nd level, and again once the second level is completed they have the option to select any level of the game, to try and improve their score.
+
+Once options have been selected the player is brought to the game screen. Here there is a start button to start the game. This is here so that the player has time is see the modal tool tips that will be made to explain what the player is to do. Once they either close the tool ips of complete them they are free to press start and begin the game.
+
+There will be an instruction button that can be pressed before a game starts to see the instructions of the game, hoever once the game starts the instructions button is disabled.
+
+The game starts with the timer counting down. from here the user can select cards by clicking on them. Each click of a card animated the element to display what is behind it. THis flip of the card only last for 3 - 5 seconds, or upon clicking of a second card, they both stay flipped for 3 -5 seconds, unless they match they will both revert back to their default positions. 
+
+Matched cards will stay revealed for the duration of the game.
+
+Each click of a pair of cards will be counted as an attempt. This will be updated in the attemps counter on screen for the user to see.
+
+Based on the amount of attempts made a scale ranging from green to red will update to indicate how effective the player has been. 
+
+If the timer elapses, and the player has not found all the matching pairs, then a modal overlay will inform the player that they were unsuccessful in their attempt and prompt them to either restart the game or to quit to the main menu.  
+
+If the player successfully matches all pairs within the tme limit and will a predefined amount of attempted then they will be displayed a winning modal overlay that will allow them to proceed to the next level. 
+
+Upon successfull completetion of each level the player is rpesented with a summary screen that highlights their progress.
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
