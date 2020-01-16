@@ -1,0 +1,36 @@
+
+html {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+/* -- Game Title --*/
+h1{
+    font-family:'Roboto', sans-serif;
+    font-size:6em;
+    font-weight:700;
+    text-align: center;
+    margin-top:50px;
+    color:orange;
+}
+
+/* -- Game Info --*/
+.game-info{
+    text-align:center;
+    padding-bottom:50px;
+}
+
+
+ul.stars {
+    list-style:none;
+    display:ruby-text;
+}
+
+.reset{
+    text-align:right;
+    cursor:pointer;
+}
