@@ -1,4 +1,5 @@
 
+
 html {
     box-sizing: border-box;
 }
@@ -15,7 +16,18 @@ h1{
     font-weight:700;
     text-align: center;
     margin-top:50px;
+    margin-bottom:75px;
     color:orange;
+}
+
+/* -- Game Buttons --*/
+.game-buttons{
+    display:block;
+    text-align:center;
+}
+
+.btn.btn-primary{
+    margin-right:100px;    
 }
 
 /* -- Game Info --*/
