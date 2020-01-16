@@ -1,5 +1,4 @@
 
-
 html {
     box-sizing: border-box;
 }
@@ -45,4 +44,38 @@ ul.stars {
 .reset{
     text-align:right;
     cursor:pointer;
+}
+
+/* -- Cards CSS --*/
+.easy-game{
+    justify-content: center;
+	align-items: center;    
+    display:block;
+    background:#006168;
+    
+    padding:1em;
+}
+
+.deck{
+    display:grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, auto);
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.card {
+	height: 175px;
+	width: 125px;
+	margin: 0.2rem 0.2rem;
+	background: #141214;
+	font-size: 0;
+	color: #ffffff;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
 }
