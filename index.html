@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-     <!-- FontAwesome CDN-->
+    <!-- FontAwesome CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://use.fontawesome.com/232297f35a.js"></script>
 
@@ -21,36 +21,41 @@
     <title>DM Project 2</title>
   </head>
   <body>
-<div class="container">
+    <div class="container">
         <header>
-        <!-- <h1>Memory Game</h1>-->
+        <h1>Memory Game</h1>
         </header>
-         <!-- Game Buttons -->
+        <!-- Game Buttons -->
         <div class="game-buttons">
             <button class="btn btn-primary">Start</button>
             <button class="btn btn-secondary">Instructions</button>
         </div>
-    <section class="game-info">
+        <div class="game-info">
         <!-- Game Timer -->
-        <div class="timer">
+        <div class="timer">100
         </div>
-        <!-- Star Rating -->
-        <ul class="stars">
-            <li><i class="fa fa-star"></i></li>
-            <li><i class="fa fa-star"></i></li>
-            <li><i class="fa fa-star"></i></li>
-        </ul>
         <!-- Attempts -->
-        <span class="attempts">0</span> clicks
+        Clicks:<span class="attempts">0</span> 
+        <!-- Star Rating -->
+        <div class="rating">
+            <ul class="stars">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+        </div>
         <!--Reset Button -->
         <div class="reset" >
             <i class="fa fa-repeat"></i>
         </div>
-    </section>
-</div>
- <div class="easy-game level-1">
+
+        </div>
+    </div>
+    <div class="easy-game level-1">
         <ul class="deck" id="card-deck">
-            <li class="card"></li>
+            <li class="card "></li>
             <li class="card"></li>
             <li class="card"></li>
             <li class="card"></li>
@@ -68,6 +73,136 @@
             <li class="card"></li>       
         </ul>
     </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/ace.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/king.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/queen.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/jack.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/10.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/9.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/8.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/joker.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/king.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/queen.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/ace.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/joker.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/jack.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/8.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/9.png">
+    </div>
+
+    <div class="card-back card-face">
+        <img class="card-face-image" src="assets/images/card-back.png">
+    </div>
+
+    <div class="card-front card-face">
+        <img class="card-actual" src="assets/images/10.png">
+    </div>
+
+
 
 
 

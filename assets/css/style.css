@@ -1,4 +1,5 @@
 
+
 html {
     box-sizing: border-box;
 }
@@ -15,7 +16,7 @@ h1{
     font-weight:700;
     text-align: center;
     margin-top:50px;
-    margin-bottom:75px;
+    margin-bottom:45px;
     color:orange;
 }
 
@@ -23,6 +24,8 @@ h1{
 .game-buttons{
     display:block;
     text-align:center;
+    padding:25px;
+    margin:2em;
 }
 
 .btn.btn-primary{
@@ -31,8 +34,12 @@ h1{
 
 /* -- Game Info --*/
 .game-info{
-    text-align:center;
-    padding-bottom:50px;
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    margin:3em;
+    width:500px;
+    text-align: center;
 }
 
 
@@ -79,3 +86,53 @@ ul.stars {
 	align-items: center;
 	
 }
+
+
+.card-back {
+	height: 175px;
+	width: 125px;
+	margin: 0.2rem 0.2rem;
+	background: #141214;
+	font-size: 0;
+	color: #ffffff;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+.card-face {
+	height: 175px;
+	width: 125px;
+	margin: 0.2rem 0.2rem;
+	background: #141214;
+	font-size: 0;
+	color: #ffffff;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+/*-- Card styles sourced from :
+
+<a href="https://www.vecteezy.com/free-vector/playing-cards">Playing Cards Vectors by Vecteezy</a>
+
+
+
+*/
+
+
+/* -- Game levels Display --*/
+
+.easy-game.level-1{
+    display:block;
+}
+
+
+
