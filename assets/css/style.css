@@ -1,138 +1,150 @@
 
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body{
-    margin:0;
-    padding:0;
+  margin:0;
+  padding:0;
 }
 
 /* -- Game Title --*/
 h1{
-    font-family:'Roboto', sans-serif;
-    font-size:6em;
-    font-weight:700;
-    text-align: center;
-    margin-top:50px;
-    margin-bottom:45px;
-    color:orange;
+  font-family:'Roboto', sans-serif;
+  font-size:6em;
+  font-weight:700;
+  text-align: center;
+  margin-top:50px;
+  margin-bottom:45px;
+  color:orange;
 }
 
 /* -- Game Buttons --*/
 .game-buttons{
-    display:block;
-    text-align:center;
-    padding:25px;
-    margin:2em;
+  display:block;
+  text-align:center;
+  padding:25px;
+  margin:2em;
 }
 
+
 .btn.btn-primary{
-    margin-right:100px;    
+  margin-right:100px;    
 }
 
 /* -- Game Info --*/
-.game-info{
-    grid-column: 1 / -1;
-    display: flex;
-    justify-content: space-between;
-    margin:3em;
-    width:500px;
-    text-align: center;
+.game-info-container{
+  grid-column: 2 / -1;
+  display: grid;
+  justify-content: space-between;
+  margin:3em;
+  width:500px;
+  text-align: center;
 }
 
 
 ul.stars {
-    list-style:none;
-    display:ruby-text;
+  list-style:none;
+  display:ruby-text;
 }
 
 .reset{
-    text-align:right;
-    cursor:pointer;
+  text-align:right;
+  cursor:pointer;
 }
 
 /* -- Cards CSS --*/
 .easy-game{
-    justify-content: center;
-	align-items: center;    
-    display:block;
-    background:#006168;
-    
-    padding:1em;
+  background:#006168;
+  padding:1em;
 }
 
-.deck{
-    display:grid;
-    grid-gap: 15px;
-    grid-template-columns: repeat(4, auto);
-	justify-content: center;
-	align-items: center;
-	
-}
 
 .card {
-	height: 175px;
-	width: 125px;
-	margin: 0.2rem 0.2rem;
-	background: #141214;
-	font-size: 0;
-	color: #ffffff;
-	border-radius: 5px;
-	cursor: pointer;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
+  position: relative;
+  height: 175px;
+  width: 125px;
+  border:none;
+  background-color:rgba(0,0,0,0);
 }
 
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  margin: 50px;
+  justify-content: center;
+  perspective: 500px;
+}
 
-.card-back {
-	height: 175px;
-	width: 125px;
-	margin: 0.2rem 0.2rem;
-	background: #141214;
-	font-size: 0;
-	color: #ffffff;
-	border-radius: 5px;
-	cursor: pointer;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
+.game-container-level-2 {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 15px;
+  margin: 30px;
+  justify-content: center;
+  perspective: 500px;
+}
+
+.game-container-level-3 {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-gap: 15px;
+  margin: 30px;
+  justify-content: center;
+  perspective: 500px;
 }
 
 
 .card-face {
-	height: 175px;
-	width: 125px;
-	margin: 0.2rem 0.2rem;
-	background: #141214;
-	font-size: 0;
-	color: #ffffff;
-	border-radius: 5px;
-	cursor: pointer;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  transition: transform 500ms ease-in-out;
 }
 
+.card-back {
+  background-color: black;
+  border-color: rgba(0, 255, 157, 0.493);
+}
+
+.card-front {
+  background-color: rgba(0, 255, 157, 0.493);
+  border-color: #333;
+  transform: rotateY(180deg);
+}
+
+
 /*-- Card styles sourced from :
-
 <a href="https://www.vecteezy.com/free-vector/playing-cards">Playing Cards Vectors by Vecteezy</a>
-
-
-
 */
 
 
 /* -- Game levels Display --*/
 
 .easy-game.level-1{
-    display:block;
+  display:block;
 }
+
+.easy-game.level-2{
+  display:block;
+}
+
+.easy-game.level-3{
+  display:block;
+}
+
+
+
 
 
 
