@@ -32,15 +32,22 @@ h1{
 .btn.btn-primary{
   margin-right:100px;    
 }
+.btn.btn-secondary{
+  margin-right:100px;    
+}
+
 
 /* -- Game Info --*/
 .game-info-container{
-  grid-column: 2 / -1;
-  display: grid;
+  display:flex;
+  align-items: center;
   justify-content: space-between;
   margin:3em;
   width:500px;
   text-align: center;
+  border:2px solid red;
+  padding:10px;
+  vertical-align: baseline;
 }
 
 
