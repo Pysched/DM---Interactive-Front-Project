@@ -44,7 +44,8 @@
       
         <div class="game-info">
         <!-- Attempts -->
-        Clicks:<span class="attempts">0</span>
+        Clicks:
+        <span class="attempts">0</span>
         </div>
         <div class="game-info">
         <!-- Star Rating -->
@@ -618,6 +619,43 @@
 </div>
 
 
+<!-- Winning overlay -->
+<div class="winning" id="winner">
+    <div class="overlay-winning">
+        <h2>You have won!!</h2>
+        <a class="close-box" href="#">X</a>
+        <div class="winning-message">
+            You found all the pairs
+        </div>
+        <div class="winning-details">
+            <p>It only took you <span id="totalMoves"> </span>attempts</p>
+            <p>Time taken: <span id="timeTaken"> </span></p>
+            <p>Rating: <span id="rating"> </span></p>
+        </div>
+        <button id="retry" onclick="retry()"> Go Again </button>
+        <button id="Next" onclick="nextLevel()"> Next Level </button>
+    </div>
+
+</div>
+
+
+<!-- Losing overlay -->
+<div class="losing" id="lose">
+    <div class="overlay-losing">
+        <h2>You didn't make it!!</h2>
+        <a class="close-box" href="#">X</a>
+        <div class="winning-message">
+            The pairs eluded you this time
+        </div>
+        <div class="winning-details">
+            <p>It still took you <span id="totalMoves"> </span>attempts</p>
+            <p>Time taken: <span id="timeTaken"> </span></p>
+            <p>Rating: <span id="rating"> </span></p>
+        </div>
+        <button id="retry" onclick="retry()"> Go Again </button>
+    </div>
+
+</div>
 
 
 
