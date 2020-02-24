@@ -18,12 +18,35 @@
     <!-- JS -->
     <script src="assets/js/main.js"></script>
     
-    <title>DM Project 2</title>
+    <title>Snap Cards</title>
   </head>
   <body>
+
+  <!-- Start of Landing Page -->
+  <div class="container landing-page">
+    <div class="container menu">
+        <div class="game-title">
+            <h3>Snap Cards</h3>
+        </div>
+
+        <div class="game-snapshot">
+            <img>
+        </div>
+        <div class="player-info">
+            <h5>Ready to Play?</h5>
+            <br><br>
+            <h5>Type your name below and press Submit</h5>
+            <br><br>
+            <form action="name" method="GET">
+                <input type="text" name="playerName" id = "playerName" class="inputBox">
+                <button class="btn btn-primary" onclick="getPlayerName()">Submit</button>
+            </form>
+        </div>
+    </div>
+  </div>
     <div class="container">
         <header>
-        <h1>Memory Game</h1>
+        <h1>Snap cards</h1>
         </header>
         <!-- Game Buttons -->
         <div class="game-buttons">
